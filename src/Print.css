@@ -1,0 +1,28 @@
+@media only print {
+  @page {
+    size: letter;
+    margin: 0;
+  }
+}
+
+@media only print {
+  ._e50a19c8 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+._e50a19c8 {
+  display: none;
+  min-height: 100vh;
+  /* font-size: 12pt; */
+}
+
+._e50a19c8 ._61072d82 {
+  padding: 0;
+}
+
+._e50a19c8 ._ac630aed {
+  width: 100%;
+}
+

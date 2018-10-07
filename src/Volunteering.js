@@ -19,7 +19,7 @@ const Volunteering = () => (
 	    </span>
 	  </span>
 	  <span className="_29f8eb0">
-	    <img className="_9ac5dba3" src="/static/media/map-pin.b2f804bd.svg"/>
+	    <img className="_9ac5dba3" src="svg/location.svg"/>
 	    Denver
 	  </span>
 	</h3>

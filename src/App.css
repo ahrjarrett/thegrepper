@@ -173,7 +173,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 }
 
 ._648da435 {
-  background-image: url(/static/media/home.55644be0.svg);
+  background-image: url(Icons/home.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -255,7 +255,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 }
 
 ._7eff5132 {
-  background-image: url(/static/media/printer.cb409233.svg);
+  background-image: url(Icons/print.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -281,7 +281,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 }
 
 ._8655a8a7 {
-  background-image: url(/static/media/download.ce2002cf.svg);
+  background-image: url(Icons/save.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -335,6 +335,8 @@ article, aside, footer, header, hgroup, main, nav, section {
   flex-direction: column;
 }
 
+._99f9b72b { overflow: hidden; }
+
 ._9ac5dba3 {
   width: 0.9em;
   height: 0.9em;
@@ -370,13 +372,18 @@ article, aside, footer, header, hgroup, main, nav, section {
   color: hsl(151, 86%, 34%);
 }
 
+/* WEB & PRINT */
 ._ac630aed {
+  background-color: #ffffff;
+  font-size: 1.6666666666666667vw;
+}
+
+/* WEB ONLY */
+._f20d8aa5 ._ac630aed {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 14px 0 #313131;
   width: 51em;
-  background-color: #ffffff;
-  font-size: 1.6666666666666667vw;
   animation: fadeIn 200ms ease-in;
 }
 
@@ -386,8 +393,9 @@ article, aside, footer, header, hgroup, main, nav, section {
   }
 }
 
+/* WEB ONLY */
 @media not all and (max-width: 77rem) {
-  ._ac630aed {
+  ._f20d8aa5 ._ac630aed {
     margin-right: 1em;
   }
 }
@@ -484,6 +492,12 @@ article, aside, footer, header, hgroup, main, nav, section {
   color: hsl(151, 86%, 34%);
 }
 
+._f20d8aa5 {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
 ._f276a4b7 {
   display: flex;
   flex-direction: row;
@@ -542,5 +556,4 @@ article, aside, footer, header, hgroup, main, nav, section {
     justify-content: center;
   }
 }
-
 
