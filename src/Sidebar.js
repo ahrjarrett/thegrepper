@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => (
   <div className="_f9a8f487">
@@ -8,7 +9,7 @@ const Sidebar = () => (
     </div>
     <div className="_649629ae">
       <span className="_7eff5132"></span>
-      <a className="_cd8c9a18" onClick={() => window.print()} href="#">Print my resume</a>
+      <Link to="/make-pdf" className="_cd8c9a18">Print my resume</Link>
     </div>
     <div className="_649629ae">
       <span className="_648da435"></span>

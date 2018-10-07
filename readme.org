@@ -1,0 +1,15 @@
+#+TITLE: thegrepper.com
+#+AUTHOR: Andrew Jarrett
+
+Source code for [[https://thegrepper.com/][thegrepper.com]].
+
+* Developing
+
+#+BEGIN_SRC 
+$ yarn start
+#+END_SRC
+
+* Make pdf
+
+Start the dev server and in another tab run =yarn make-pdf=. This will create resume.pdf in the build folder.
+

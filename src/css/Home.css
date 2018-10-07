@@ -1,0 +1,221 @@
+/* No italic for Fira Code */
+
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code Bold'), local('FiraCode-Bold'), url('../Fonts/FiraCode-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code Medium'), local('FiraCode-Medium'), url('../Fonts/FiraCode-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code Regular'), local('FiraCode-Regular'), url('../Fonts/FiraCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code Light'), local('FiraCode-Light'), url('../Fonts/FiraCode-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+#Home {
+  padding: 40px;
+  font-family: Fira Code, Courier, sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 1.2em;
+  max-width: 1000px;
+  color: #333;
+  max-width: 700px;
+}
+
+#Home h1, #Home h2, #Home h3 {
+  color: #111;
+}
+
+#Home p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+#Home h1 {
+  font-weight: 600;
+  font-size: 32pt;
+}
+
+#Home h2, #Home h3 {
+  padding-top: 20px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16pt;
+}
+
+#Home h3 {
+  font-size: 12pt;
+  padding-top: 6pt;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Home a {
+  color: #0f6fb0;
+  /* color: #558; */
+}
+
+#Home a:hover {
+  color: #333334;
+  background: #e6ecfe;
+  text-decoration-color: #257bb5;
+  /* color: #a0f; */
+}
+
+#Home ul {
+  padding-inline-start: 0;
+}
+
+#Home li {
+  list-style: none;
+}
+
+li[class^="org-bullet-"] {
+  display: flex;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+li.org-bullet-1::before {
+  content: '◉ ';
+  padding-right: 0.5em;
+  margin-top: -0.1em;
+}
+li.org-bullet-1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #3c3c3c;
+  background: #f0f0f0;
+  border-top: 1px solid #a7a7a7;
+}
+li.org-bullet-1 ~ p { margin-left: 1em; }
+
+li.org-bullet-2::before {
+  content: '○ ';
+  padding-right: 0.5em;
+  margin-top: -0.1em;
+}
+li.org-bullet-2 {
+  margin-left: 1em;
+  color: #143654;
+  background: #e5f4fb;
+  border-top: 1px solid #375670;
+}
+li.org-bullet-2 ~ p { margin-left: 2em; }
+
+li.org-bullet-3::before {
+  content: '✸ ';
+  margin-top: -0.1em;
+  padding-right: 0.5em;
+  /* transform: rotate(20deg); */
+}
+li.org-bullet-3 {
+  margin-left: 2em;
+  color: #075424;
+  background: #efffef;
+}
+li.org-bullet-3 ~ p { margin-left: 3em; }
+
+.src-block {
+  color: #061188;
+  background: #fffee1;
+  max-width: 600px;
+}
+.src-block .src-header, .src-footer {
+  color: #575556;
+  background: #e2e1d6;
+}
+.src-footer {
+  height: 1em;
+}
+
+.error {
+  color: inherit;
+  background: #fec8c9;
+  border: 1px solid #fc4b4f;
+}
+
+.description {
+  background-color: #ffffe1;
+  max-width: 600px;
+  margin-left: -5px;
+  padding: 0.5em;
+  /* font-style: italic; */
+  /* border: 1px solid rgb(200,200,200); */
+}
+
+
+/* The tooltip class uses position:relative, which is needed to position the
+   tooltip text (position:absolute). */
+
+.tooltip {
+  position: relative;
+  /* display: inline-block; */
+}
+
+/* The tooltiptext class holds the actual tooltip text. It is hidden by default,
+   and will be visible on hover (see below). We have also added some basic
+   styles to it: 120px width, black background color, white text color, centered
+   text, and 5px top and bottom padding.
+
+   The CSS border-radius property is used to add rounded corners to the tooltip
+   text. */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 420px;
+  background-color: #fffdd4;
+  color: #272727;
+  text-align: left;
+  padding: 15px;
+  font-size: 12pt;
+  position: absolute;
+  z-index: 1;
+  border: black 1px solid;
+  font-style: normal;
+
+  /*
+     In this example, the tooltip is placed to the right (left:105%) of the
+     "hoverable" text (<div>). Also note that top:-5px is used to place it in
+     the middle of its container element. We use the number 5 because the
+     tooltip text has a top and bottom padding of 5px. If you increase its
+     padding, also increase the value of the top property to ensure that it
+     stays in the middle (if this is something you want). The same applies if
+     you want the tooltip placed to the left. */
+  position: absolute;
+  z-index: 1;
+}
+
+/* The :hover selector is used to show the tooltip text when the user moves the
+   mouse over the <div> with class="tooltip".
+ */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+::selection { /* WebKit/Blink Browsers */
+  background: #fbbc43; 
+  /* background: #91d4fd;  */
+  /* background: #ff0; */
+}
+::-moz-selection { /* WebKit/Blink Browsers */
+  background: #fbbc43; 
+  /* background: #91d4fd;  */
+  /* background: #ff0; */
+}

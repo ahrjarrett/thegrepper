@@ -26,3 +26,7 @@
   width: 100%;
 }
 
+.makePdfOverride {
+  display: flex !important;
+}
+

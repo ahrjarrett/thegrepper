@@ -557,3 +557,27 @@ article, aside, footer, header, hgroup, main, nav, section {
   }
 }
 
+/* CUSTOM STYLES */
+.section__item {
+  padding-top: 0;
+}
+
+p.tech_skills_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.37em;
+}
+
+
+p.tech_skills_wrapper span {
+  margin-right: 0.45em;
+  margin-top: 0.325em;
+  margin-bottom: 0.325em;
+  height: 1.3em;
+}
+
+._b7bdb258 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
