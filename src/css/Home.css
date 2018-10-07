@@ -26,19 +26,23 @@
 }
 
 #Home {
-  padding: 40px;
   font-family: Fira Code, Courier, sans-serif;
   font-weight: 400;
-  font-size: 14pt;
   line-height: 1.2em;
-  max-width: 1000px;
-  color: #333;
-  max-width: 700px;
 }
 
-#Home h1, #Home h2, #Home h3 {
-  color: #111;
+#Home .theme-wrapper {
+  max-width: 1000px;
+  max-width: 700px;
+  padding: 1em;
 }
+
+@media all and (min-width: 45rem) {
+  #Home .theme-wrapper {
+    padding: 3em;
+  }
+}
+
 
 #Home p {
   margin-block-start: 0em;
@@ -64,35 +68,8 @@
   font-weight: bold;
 }
 
-#Home a {
-  color: #0f6fb0;
-  /* color: #558; */
-}
-
-#Home a:hover {
-  color: #333334;
-  background: #e6ecfe;
-  text-decoration-color: #257bb5;
-  /* color: #a0f; */
-}
-
-#Home ::selection { /* WebKit/Blink Browsers */
-  background: #fbbc43; 
-  /* background: #91d4fd;  */
-  /* background: #ff0; */
-}
-#Home ::-moz-selection { /* WebKit/Blink Browsers */
-  background: #fbbc43; 
-  /* background: #91d4fd;  */
-  /* background: #ff0; */
-}
-
 #Home .underline {
   text-decoration: underline;
-}
-
-#Home article {
-  background: white;
 }
 
 #Home ul {
@@ -121,9 +98,6 @@
 #Home li.org-bullet-1 {
   font-size: 1.5em;
   font-weight: 600;
-  color: #3c3c3c;
-  background: #f0f0f0;
-  border-top: 1px solid #a7a7a7;
 }
 #Home li.org-bullet-1 ~ p { margin-left: 1em; }
 
@@ -134,9 +108,6 @@
 }
 #Home li.org-bullet-2 {
   margin-left: 1em;
-  color: #143654;
-  background: #e5f4fb;
-  border-top: 1px solid #375670;
 }
 #Home li.org-bullet-2 ~ p { margin-left: 2em; }
 
@@ -148,37 +119,21 @@
 }
 #Home li.org-bullet-3 {
   margin-left: 2em;
-  color: #075424;
-  background: #efffef;
 }
 #Home li.org-bullet-3 ~ p { margin-left: 3em; }
 
 #Home .src-block {
-  color: #061188;
-  background: #fffee1;
   max-width: 600px;
 }
-#Home .src-block .src-header, .src-footer {
-  color: #575556;
-  background: #e2e1d6;
-}
+
 #Home .src-footer {
   height: 1em;
 }
 
-#Home .error {
-  color: inherit;
-  background: #fec8c9;
-  border: 1px solid #fc4b4f;
-}
-
 #Home .description {
-  background-color: #ffffe1;
   max-width: 600px;
   margin-left: -5px;
   padding: 0.5em;
-  /* font-style: italic; */
-  /* border: 1px solid rgb(200,200,200); */
 }
 
 #Home .home-copyright {
@@ -188,5 +143,155 @@
 
 #Home .copyright-symbol {
   font-weight: 500;
+}
+
+
+/*** LEUVEN ***/
+#Home.leuven {
+  background: white;
+}
+
+#Home.leuven article {
+  background: white;
+}
+
+#Home.leuven {
+  color: #333;
+}
+
+#Home.leuven h1, #Home.leuven h2, #Home.leuven h3 {
+  color: #111;
+}
+
+#Home.leuven a {
+  color: #0f6fb0;
+}
+
+#Home.leuven a:hover {
+  color: #333334;
+  background: #e6ecfe;
+  text-decoration-color: #257bb5;
+}
+
+#Home.leuven ::selection { /* WebKit/Blink Browsers */
+  background: #fbbc43; 
+  /* background: #91d4fd;  */
+  /* background: #ff0; */
+}
+#Home.leuven ::-moz-selection { /* WebKit/Blink Browsers */
+  background: #fbbc43; 
+  /* background: #91d4fd;  */
+  /* background: #ff0; */
+}
+
+#Home.leuven li.org-bullet-1 {
+  color: #3c3c3c;
+  background: #f0f0f0;
+  border-top: 1px solid #a7a7a7;
+}
+
+#Home.leuven li.org-bullet-2 {
+  color: #143654;
+  background: #e5f4fb;
+  border-top: 1px solid #375670;
+}
+
+#Home.leuven li.org-bullet-3 {
+  color: #075424;
+  background: #efffef;
+}
+
+#Home.leuven .src-block {
+  color: #061188;
+  background: #fffee1;
+}
+
+#Home.leuven .src-block .src-header, .src-footer {
+  color: #575556;
+  background: #e2e1d6;
+}
+
+#Home.leuven .error {
+  color: inherit;
+  background: #fec8c9;
+  border: 1px solid #fc4b4f;
+}
+
+#Home.leuven .description {
+  background-color: #ffffe1;
+}
+
+
+
+/*** SPACEMACS ***/
+#Home.spacemacs {
+  background: #292b2e;
+}
+
+#Home.spacemacs article {
+  background: #292b2e;
+}
+
+#Home.spacemacs {
+  color: #e3dedd;
+}
+
+#Home.spacemacs h1, #Home.spacemacs h2, #Home.spacemacs h3 {
+  /* CORRECT? */
+  color: #4f97d7;
+}
+
+#Home.spacemacs a {
+  color: #2a9dac;
+}
+
+#Home.spacemacs a:hover {
+  color: #e3dedd;
+  background: #444155;
+  text-decoration-color: #2a9dac;
+}
+
+#Home.spacemacs ::selection {
+  background: #86dc2f;
+}
+#Home.spacemacs ::-moz-selection {
+  background: #86dc2f;
+}
+
+#Home.spacemacs li.org-bullet-1 {
+  color: #4f97d7;
+  background: transparent;
+  border-top: none;
+}
+
+#Home.spacemacs li.org-bullet-2 {
+  color: #2d9574;
+  background: transparent;
+  border-top: none;
+}
+
+#Home.spacemacs li.org-bullet-3 {
+  color: #bc6ec5;
+  background: transparent;
+}
+
+#Home.spacemacs .src-block {
+  color: #cbc1d5;
+  background: #2f2b33;
+}
+
+#Home.spacemacs .src-block .src-header, .src-footer {
+  color: #827590;
+  background: #373040;
+}
+
+#Home.spacemacs .error {
+  color: #cc5279;
+  background: transparent;
+}
+
+#Home.spacemacs .description {
+  color: #cbc1d5;
+  background: #2f2b33;
 }
 
