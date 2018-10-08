@@ -1,14 +1,15 @@
 import React from 'react'
+import { SectionContainer } from './Containers'
 
 const TechSkills = () => (
-  <section className="_955c1149 section section__tech_skills">
-    <h2 className="_639d6928 section__header">
+  <SectionContainer>
+    <h2 className="section-header">
       Tech skills
     </h2>
-    <div className="_d24ff00c section__item_wrapper tech_skills">
-      <div className="_321f7c83 hr_left"></div>
-      <div className="_606748b9 section__item languages">
-	<p className="_ef383d05 tech_skills_wrapper">
+    <div className="section-item tech-skills">
+      <div className="hr-left"></div>
+      <div className="section-item-content languages">
+	<p className="_ef383d05 tech-skills-wrapper">
 	  <span className="_3dae7860">JavaScript</span>
 	  <span className="_3dae7860">React</span>
 	  <span className="_3dae7860">Redux</span>
@@ -23,7 +24,7 @@ const TechSkills = () => (
 	</p>
       </div>
     </div>
-  </section>
+  </SectionContainer>
 )
 
 export default TechSkills

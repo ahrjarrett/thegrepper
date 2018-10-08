@@ -1,8 +1,49 @@
 import React from 'react'
+import Section from './Section'
 
 const SideProjects = () => (
-  <section className="_955c1149">
-    <h2 className="_639d6928">Side projects
+  <div>
+    <Section
+      heading='Side projects'
+      items={items}
+      />
+    <p className="section-footer">…more at <a className="section-footer-link" href="https://github.com/ahrjarrett">github.com/ahrjarrett
+	<img className="resume-icon" src="svg/link.svg" alt="" />
+      </a>
+    </p>
+  </div>
+)
+
+const items = [
+  {
+    title: null,
+    location: null,
+    subtitle: 'React Speak',
+    time: '2018',
+    bullets: [<p className="section-item-bullet">Handling Voice Data: <span className="hl">React / Redux</span></p>],
+  },
+  {
+    title: null,
+    location: null,
+    subtitle: 'Github OAuth Module',
+    time: '2018',
+    bullets: [
+	<p className="section-item-bullet">Client-side GitHub auth: <span className="hl">React / JWT</span></p>],
+  },
+  {
+    title: null,
+    location: null,
+    subtitle: 'Polygon',
+    time: '2017',
+    bullets: [<p className="section-item-bullet">Google Maps for Realtors: <span className="hl">Express.js</span></p>],
+  },
+]
+
+export default SideProjects
+
+/*
+    <SectionContainer>
+    <h2 className="section-header">Side projects
     </h2>
     <div className="_d24ff00c">
       <div className="_321f7c83">
@@ -12,11 +53,11 @@ const SideProjects = () => (
 	  <span className="_506dd536">
 	    React Speak
 	  </span>
-	  <span className="_42884883">
-	    <span className="_6bca7255">
+	  <span className="ellipses">
+	    <span className="ellipses-spacer">
 	    </span>
 	    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-	    <span className="_6bca7255">
+	    <span className="ellipses-spacer">
 	    </span>
 	  </span>
 	  <span className="_27361ab">
@@ -36,11 +77,11 @@ const SideProjects = () => (
 	  <span className="_506dd536">
 	    Github OAuth Module
 	  </span>
-	  <span className="_42884883">
-	    <span className="_6bca7255">
+	  <span className="ellipses">
+	    <span className="ellipses-spacer">
 	    </span>
 	    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-	    <span className="_6bca7255"></span>
+	    <span className="ellipses-spacer"></span>
 	  </span>
 	  <span className="_27361ab">2018
 	  </span>
@@ -58,11 +99,11 @@ const SideProjects = () => (
 	  <span className="_506dd536">
 	    Polygon
 	  </span>
-	  <span className="_42884883">
-	    <span className="_6bca7255">
+	  <span className="ellipses">
+	    <span className="ellipses-spacer">
 	    </span>
 	    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-	    <span className="_6bca7255"></span>
+	    <span className="ellipses-spacer"></span>
 	  </span>
 	  <span className="_27361ab">
 	    2017
@@ -73,11 +114,6 @@ const SideProjects = () => (
 	</p>
       </div>
     </div>
-    <p className="_80b01d83">…more at <a className="_a3a84a32" href="https://github.com/ahrjarrett">github.com/ahrjarrett
-	<img className="_9ac5dba3" src="svg/link.svg"/>
-      </a>
-    </p>
-  </section>
-)
+  </SectionContainer>
 
-export default SideProjects
+*/

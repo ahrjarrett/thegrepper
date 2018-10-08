@@ -8,8 +8,8 @@ import './css/Paper.css'
 import './css/Print.css'
 
 const Paper = () => (
-  <div className="_99f9b72b wrapper_1">
-    <Web classNames='_f20d8aa5 wrapper_2' />
+  <div className="_99f9b72b wrapper-1">
+    <Web classNames='_f20d8aa5 wrapper-2' />
     <Print />
   </div>
 )

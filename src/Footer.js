@@ -5,13 +5,13 @@ const Footer = () => (
     <p className="_94bc3f1">
       I made this resume with
       &#160;
-      <span className="_27361ab">React</span> and
+      <span className="hl-regular">React</span> and
       &#160;
-      <span className="_27361ab">CSS </span>
+      <span className="hl-regular">CSS </span>
       — view source at
       &#160;
-      <a className="_a3a84a32" href="https://github.com/ahrjarrett/thegrepper">github.com/ahrjarrett/thegrepper
-	<img className="_9ac5dba3" src="svg/link.svg"/>
+      <a className="section-footer-link" href="https://github.com/ahrjarrett/thegrepper">github.com/ahrjarrett/thegrepper
+	<img className="resume-icon" src="svg/link.svg" alt="" />
       </a>
     </p>
   </div>

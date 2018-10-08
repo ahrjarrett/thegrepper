@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import './css/Home.css'
 
 const ThemeContext = React.createContext()
-// const ThemeConsumer = ThemeContext.Consumer
 
 class ThemeProvider extends Component {
   state = {
@@ -12,8 +11,6 @@ class ThemeProvider extends Component {
   }
 
   toggleTheme = e => {
-    console.log('event', e)
-    console.log('this.state.theme = ', this.state.theme)
     e.preventDefault()
     this.setState({
       theme: this.state.theme === 'leuven' ? 'spacemacs' : 'leuven'
@@ -37,7 +34,7 @@ class ThemeProvider extends Component {
 const ThemeToggler = () => (
   <ThemeContext.Consumer>
     {({ toggleTheme, theme }) => (
-      <p>4. <a href="" onClick={e => toggleTheme(e)}>Toggle light/dark theme</a></p>
+      <p>4. <a href="/" onClick={toggleTheme}>Toggle light/dark theme</a></p>
     )}
   </ThemeContext.Consumer>
 )
@@ -55,12 +52,12 @@ const Home = () => (
 		<ul>
 		  <li className="org-bullet-1"><p><span>I’m Andrew Jarrett</span></p></li>
 		  <br />
-		  <li className="org-bullet-2"><span>I am a Production Team Lead at <a href="https://ownlocal.com" target="_blank">OwnLocal</a> and a lover of all things functional programming.</span></li>
+		  <li className="org-bullet-2"><span>I am a Production Team Lead at <a href="https://ownlocal.com" rel="noopener noreferrer" target="_blank">OwnLocal</a> and a lover of all things functional programming.</span></li>
 		  <br/>
 		  <p>- Emacs is pretty cool</p>
-		  <p>- Currently I’m reading <a href="https://www.amazon.com/Mock-Mockingbird-Raymond-Smullyan/dp/0192801422" target="_blank">To Mock a Mockingbird</a></p>
+		  <p>- Currently I’m reading <a href="https://www.amazon.com/Mock-Mockingbird-Raymond-Smullyan/dp/0192801422" rel="noopener noreferrer" target="_blank">To Mock a Mockingbird</a></p>
 		  <br/>
-		  <li className="org-bullet-2"><span>I went to undergrad at Northwestern University’s <a href="https://www.weinberg.northwestern.edu/" target="_blank">Weinberg College of Arts & Sciences</a>.</span></li>
+		  <li className="org-bullet-2"><span>I went to undergrad at Northwestern University’s <a href="https://www.weinberg.northwestern.edu/" rel="noopener noreferrer" target="_blank">Weinberg College of Arts & Sciences</a>.</span></li>
 		  <br />
 		  <li className="org-bullet-2">About me</li>
 		  <br />
@@ -74,16 +71,16 @@ const Home = () => (
 		  <li className="org-bullet-3">Contact info</li>
 		  <br />
 		  <p>- <a href="mailto:ahrjarrett@gmail.com">ahrjarrett@gmail.com</a></p>
-		  <p>- <a href="https://github.com/ahrjarrett/" target="_blank">GitHub</a></p>
-		  <p>- <a href="https://www.linkedin.com/in/andrewhjarrett/" target="_blank">LinkedIn</a></p>
+		  <p>- <a href="https://github.com/ahrjarrett/" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+		  <p>- <a href="https://www.linkedin.com/in/andrewhjarrett/" rel="noopener noreferrer" target="_blank">LinkedIn</a></p>
 		  <br />
 		  <li className="org-bullet-3">Other cool stuff</li>
 		  <br />
 		  <p>1. <a href="https://blog.thegrepper.com">Blog</a></p>
-		  <p>2. <a href="https://github.com/fniessen/emacs-leuven-theme" target="_blank">Leuven</a>, the theme this page is based on</p>
-	  <p>3. <a href="https://github.com/ahrjarrett/.emacs.d/" target="_blank">My Emacs config</a></p>
+		  <p>2. <a href="https://github.com/fniessen/emacs-leuven-theme" rel="noopener noreferrer" target="_blank">Leuven</a>, the theme this page is based on</p>
+	  <p>3. <a href="https://github.com/ahrjarrett/.emacs.d/" rel="noopener noreferrer" target="_blank">My Emacs config</a></p>
 	  <ThemeToggler/>
-	  <p>5. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
+	  <p>5. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" rel="noopener noreferrer" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
 	  <br />
 	  <br />
 	  </ul>

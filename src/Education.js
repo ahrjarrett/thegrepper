@@ -1,37 +1,39 @@
 import React from 'react'
+import { SectionContainer } from './Containers'
+
+const items = [{
+  title: 'Northwestern University',
+  subtitle: 'English, Critical Theory',
+  time: '2008-2012',
+  location: null, 
+  bullets: []
+}]
+
+const sectionTitle = 'Education'
 
 const Education = () => (
-  <section className="_955c1149">
-    <h2 className="_639d6928">
-      Education
-    </h2>
-    <div className="_d24ff00c">
-      <div className="_321f7c83">
-      </div>
-      <div className="_606748b9">
-	<h3 className="_2054074c">
-	  <span className="_7c69c849">
-	    Northwestern University
-	  </span>
-	  <span className="_42884883">
-	    <span className="_6bca7255">
+  <SectionContainer>
+    <h2 className="section-header">{sectionTitle}</h2>
+    {items.map((item, i) => (
+      <div key={i} className="section-item">
+	<div className="hr-left"></div>
+	<div className="section-item-content">
+	  <h3 className="section-item-title">
+	    <span className="section-item-title-left">{item.title}</span>
+	    <span className="ellipses">
+	      <span className="ellipses-spacer"></span>
+	      . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+	      <span className="ellipses-spacer"></span>
 	    </span>
-	    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
-	    <span className="_6bca7255">
-	    </span>
-	  </span>
-	  <span className="_27361ab">
-	    2008-2012
-	  </span>
-	</h3>
-	<p className="_edb0178f">
-	  <span className="_506dd536">
-	    English, Critical Theory
-	  </span>
-	</p>
+	    <span className="hl-regular">{item.time}</span>
+	  </h3>
+	  <p className="section-item-subtitle">
+	    <span className="section-item-subtitle-left">{item.subtitle}</span>
+	  </p>
+	</div>
       </div>
-    </div>
-  </section>
+    ))}
+  </SectionContainer>
 )
 
 export default Education
