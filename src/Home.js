@@ -61,12 +61,12 @@ const Home = () => (
 		  <br />
 		  <li className="org-bullet-2">About me</li>
 		  <br />
-		  <p><span className="underline">Description</span>:</p>
-		  <p className="description">I grew up in Denver and now live in Austin, Texas. My dog is named Ash and he’s cute as hell but also a tortured soul.</p>
+		  <p className="src-block src-header"><span className="">Description</span>:</p>
+		  <p className="src-block">I grew up in Denver and now live in Austin, Texas. My dog is named Ash and he’s cute as hell but also a tortured soul.</p>
 		  <br />
 		  <li className="org-bullet-2">Hire me</li>
 		  <br />
-		  <p>- Here's a link to my <Link tabIndex="1" to="/resume" className="error home-resume-link">resume</Link></p>
+		  <p>- Here's a link to my <Link tabIndex="1" to="/resume" className="error home-resume-link">CV</Link></p>
 		  <br />
 		  <li className="org-bullet-3">Contact info</li>
 		  <br />

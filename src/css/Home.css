@@ -206,7 +206,7 @@
   background: #fffee1;
 }
 
-#Home.leuven .src-block .src-header, .src-footer {
+#Home.leuven .src-header, .src-footer {
   color: #575556;
   background: #e2e1d6;
 }
@@ -280,7 +280,7 @@
   background: #2f2b33;
 }
 
-#Home.spacemacs .src-block .src-header, .src-footer {
+#Home.spacemacs .src-header, .src-footer {
   color: #827590;
   background: #373040;
 }

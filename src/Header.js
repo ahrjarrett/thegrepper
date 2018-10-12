@@ -15,7 +15,7 @@ const Header = () => (
       <a className="_36d32072" href="mailto:ahrjarrett@gmail.com">ahrjarrett@gmail.com
 	<img alt="" className="resume-icon" src="svg/mail.svg" />
       </a>
-      <a className="_36d32072" href="https://www.linkedin.com/in/andrewhjarrett/">linkedin.com/andrewhjarrett
+      <a className="_36d32072" href="https://www.linkedin.com/in/andrewhjarrett/">linkedin.com/in/andrewhjarrett
 	<img alt="" className="resume-icon" src="svg/linkedin.svg" />
       </a>
       <a className="_36d32072" href="https://github.com/ahrjarrett">github.com/ahrjarrett
