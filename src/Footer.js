@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => (
   <div className="_a3664427">
     <p className="_94bc3f1">
-      View résumé source at
+      View resume source at
       &#160;
       <a className="section-footer-link" href="https://github.com/ahrjarrett/thegrepper">github.com/ahrjarrett/thegrepper
 	<img className="resume-icon" src="svg/link.svg" alt="" />
