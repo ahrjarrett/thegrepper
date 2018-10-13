@@ -48,7 +48,7 @@ const items = [
     bullets: [
       <p className='section-item-bullet'>Manage social media profiles for 100+ clients</p>,
       <p className='section-item-bullet'>Top 5% of sales floor Q1 & Q2 2015</p>,
-      <p className='section-item-bullet'>Brought in $500,000 in new business</p>,
+								      <p className='section-item-bullet'>Brought in over $1,000,000 in new business</p>,
     ]
   },
   {

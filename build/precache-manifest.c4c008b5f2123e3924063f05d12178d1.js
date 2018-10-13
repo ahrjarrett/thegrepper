@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Light.3a7fa128.woff2"
   },
   {
-    "revision": "9d1fa14861976877f9fe",
+    "revision": "200d268d45246e521864",
     "url": "/static/css/main.e30c02df.chunk.css"
   },
   {
@@ -20,24 +20,24 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Bold.9ecee2ce.woff2"
   },
   {
-    "revision": "d293dc7c066d907f308b9924a60f1700",
-    "url": "/static/media/FiraCode-Medium.d293dc7c.woff2"
-  },
-  {
     "revision": "24310bd06e2537b92a92f33dabdc038b",
     "url": "/static/media/FiraCode-Regular.24310bd0.woff2"
   },
   {
-    "revision": "9d1fa14861976877f9fe",
-    "url": "/static/js/main.9d1fa148.chunk.js"
+    "revision": "d293dc7c066d907f308b9924a60f1700",
+    "url": "/static/media/FiraCode-Medium.d293dc7c.woff2"
   },
   {
-    "revision": "dc350a1320c8c455fce22a68938ce05b",
-    "url": "/static/media/SourceSansPro-Italic.dc350a13.woff2"
+    "revision": "200d268d45246e521864",
+    "url": "/static/js/main.200d268d.chunk.js"
   },
   {
     "revision": "0d3b9a43eda8c6ebe926cd9740ec78a4",
     "url": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2"
+  },
+  {
+    "revision": "dc350a1320c8c455fce22a68938ce05b",
+    "url": "/static/media/SourceSansPro-Italic.dc350a13.woff2"
   },
   {
     "revision": "0448fda3606e6dc571f763223e78861a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/print.cb409233.svg"
   },
   {
-    "revision": "b197837cd42e6e8c5f1d0b620a1d36f5",
+    "revision": "d40fdfcbdfc958e54115f8762ce94149",
     "url": "/index.html"
   }
 ];
