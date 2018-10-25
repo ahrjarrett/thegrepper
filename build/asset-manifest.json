@@ -1,16 +1,16 @@
 {
   "main.css": "/static/css/main.e30c02df.chunk.css",
-  "main.js": "/static/js/main.200d268d.chunk.js",
-  "main.js.map": "/static/js/main.200d268d.chunk.js.map",
+  "main.js": "/static/js/main.f166e92d.chunk.js",
+  "main.js.map": "/static/js/main.f166e92d.chunk.js.map",
   "static/js/1.dff39538.chunk.js": "/static/js/1.dff39538.chunk.js",
   "static/js/1.dff39538.chunk.js.map": "/static/js/1.dff39538.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Home.css": "/static/media/FiraCode-Regular.24310bd0.woff2",
-  "static/media/Font.css": "/static/media/SourceSansPro-Regular.0448fda3.woff2",
-  "static/media/Paper.css": "/static/media/print.cb409233.svg",
+  "static/media/Home.css": "/static/media/FiraCode-Medium.d293dc7c.woff2",
+  "static/media/Font.css": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2",
+  "static/media/Paper.css": "/static/media/save.ce2002cf.svg",
   "static/css/main.e30c02df.chunk.css.map": "/static/css/main.e30c02df.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c4c008b5f2123e3924063f05d12178d1.js": "/precache-manifest.c4c008b5f2123e3924063f05d12178d1.js",
+  "precache-manifest.08cc0781437e877b9c03a3a3359f8850.js": "/precache-manifest.08cc0781437e877b9c03a3a3359f8850.js",
   "service-worker.js": "/service-worker.js"
 }
