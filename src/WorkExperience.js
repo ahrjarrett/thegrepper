@@ -19,9 +19,9 @@ const items = [
     time:     ['2016-2017', '2017-Present'],
     location: 'Austin, TX', 
     bullets: [
-      <p className='section-item-bullet'>Create reports and investigate bugs using <span className='hl'>SQL</span></p>,
-      <p className='section-item-bullet'>QA internal <span className='hl'>React/Redux</span> apps</p>,
-      <p className='section-item-bullet'>Deliver feedback on UI of internal <span className='hl'>Rails</span> app</p>,
+      <p className='section-item-bullet'>Create internal & external reports using <span className='hl'>SQL</span></p>,
+      <p className='section-item-bullet'>QA <span className='hl'>React/Redux</span> apps & investigate bugs</p>,
+      <p className='section-item-bullet'>Troubleshoot internal <span className='hl'>Rails</span> app</p>,
       <p className='section-item-bullet'>Manage a team of 75 remote contractors</p>,
       <p className='section-item-bullet'>Create tools to increase employee productivity</p>,
     ]
@@ -32,11 +32,11 @@ const items = [
     time: '2015-2016',
     location: 'Austin, TX', 
     bullets: [
-      <p className='section-item-bullet'>Build company website with <span className='hl'>Node & Express</span></p>,
-      <p className='section-item-bullet'>Design marketing collateral using <span className='hl'>Illustrator</span></p>,
+      <p className='section-item-bullet'>Create FollowClosely website using <span className='hl'>Angular.js</span></p>,
+      <p className='section-item-bullet'>Iterate on <span className='hl'>Node & Express.js</span> prototype</p>,
       <p className='section-item-bullet'>Write custom <span className='hl'>Ghost</span> templates for customers</p>,
+      <p className='section-item-bullet'>Design marketing collateral using <span className='hl'>Illustrator</span></p>,
       <p className='section-item-bullet'>Implement B2C email retargeting campaigns</p>,
-      <p className='section-item-bullet'>Track & manage SEO campaigns</p>,
 
     ]
   },
