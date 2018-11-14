@@ -34,7 +34,7 @@ class ThemeProvider extends Component {
 const ThemeToggler = () => (
   <ThemeContext.Consumer>
     {({ toggleTheme, theme }) => (
-      <p>4. <a href="/" onClick={toggleTheme}>Toggle light/dark theme</a></p>
+      <p>1. <a href="/" onClick={toggleTheme}>Toggle light/dark theme</a></p>
     )}
   </ThemeContext.Consumer>
 )
@@ -66,7 +66,7 @@ const Home = () => (
 		  <br />
 		  <li className="org-bullet-2">Hire me</li>
 		  <br />
-		  <p>- Here's a link to my <Link tabIndex="1" to="/resume" className="error home-resume-link">CV</Link></p>
+		  <p>- Here's a link to my <Link tabIndex="1" to="/resume" className="error home-resume-link">resume</Link></p>
 		  <br />
 		  <li className="org-bullet-3">Contact info</li>
 		  <br />
@@ -76,11 +76,10 @@ const Home = () => (
 		  <br />
 		  <li className="org-bullet-3">Other cool stuff</li>
 		  <br />
-		  <p>1. <a href="https://blog.thegrepper.com">Blog</a></p>
-		  <p>2. <a href="https://github.com/fniessen/emacs-leuven-theme" rel="noopener noreferrer" target="_blank">Leuven</a>, the theme this page is based on</p>
+		  <ThemeToggler/>
+		  <p>2. <a href="https://github.com/fniessen/emacs-leuven-theme" rel="noopener noreferrer" target="_blank">Leuven</a>, the Emacs theme this page is based on</p>
 	  <p>3. <a href="https://github.com/ahrjarrett/.emacs.d/" rel="noopener noreferrer" target="_blank">My Emacs config</a></p>
-	  <ThemeToggler/>
-	  <p>5. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" rel="noopener noreferrer" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
+	  <p>4. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" rel="noopener noreferrer" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
 	  <br />
 	  <br />
 	  </ul>
