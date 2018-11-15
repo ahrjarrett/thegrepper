@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Light.3a7fa128.woff2"
   },
   {
-    "revision": "b18f97e11094c2afa53b",
+    "revision": "0682649ea24c03eeb50f",
     "url": "/static/css/main.e30c02df.chunk.css"
   },
   {
@@ -16,10 +16,6 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "24310bd06e2537b92a92f33dabdc038b",
-    "url": "/static/media/FiraCode-Regular.24310bd0.woff2"
-  },
-  {
     "revision": "d293dc7c066d907f308b9924a60f1700",
     "url": "/static/media/FiraCode-Medium.d293dc7c.woff2"
   },
@@ -28,24 +24,24 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Bold.9ecee2ce.woff2"
   },
   {
-    "revision": "b18f97e11094c2afa53b",
-    "url": "/static/js/main.b18f97e1.chunk.js"
+    "revision": "24310bd06e2537b92a92f33dabdc038b",
+    "url": "/static/media/FiraCode-Regular.24310bd0.woff2"
   },
   {
-    "revision": "0d3b9a43eda8c6ebe926cd9740ec78a4",
-    "url": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2"
+    "revision": "0682649ea24c03eeb50f",
+    "url": "/static/js/main.0682649e.chunk.js"
   },
   {
     "revision": "dc350a1320c8c455fce22a68938ce05b",
     "url": "/static/media/SourceSansPro-Italic.dc350a13.woff2"
   },
   {
-    "revision": "0448fda3606e6dc571f763223e78861a",
-    "url": "/static/media/SourceSansPro-Regular.0448fda3.woff2"
+    "revision": "0d3b9a43eda8c6ebe926cd9740ec78a4",
+    "url": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2"
   },
   {
-    "revision": "55644be0d4a9382b8f1b58830cd536c6",
-    "url": "/static/media/home.55644be0.svg"
+    "revision": "0448fda3606e6dc571f763223e78861a",
+    "url": "/static/media/SourceSansPro-Regular.0448fda3.woff2"
   },
   {
     "revision": "cb4092339e30e3b581db1c092e10bc20",
@@ -56,7 +52,11 @@ self.__precacheManifest = [
     "url": "/static/media/save.ce2002cf.svg"
   },
   {
-    "revision": "389c29e197031d824a236e0b514b6956",
+    "revision": "55644be0d4a9382b8f1b58830cd536c6",
+    "url": "/static/media/home.55644be0.svg"
+  },
+  {
+    "revision": "ebef488e9e459c2dc98fc159564c0cac",
     "url": "/index.html"
   }
 ];
