@@ -77,9 +77,10 @@ const Home = () => (
 		  <li className="org-bullet-3">Other cool stuff</li>
 		  <br />
 		  <ThemeToggler/>
-		  <p>2. <a href="https://github.com/fniessen/emacs-leuven-theme" rel="noopener noreferrer" target="_blank">Leuven</a>, the Emacs theme this page is based on</p>
-	  <p>3. <a href="https://github.com/ahrjarrett/.emacs.d/" rel="noopener noreferrer" target="_blank">My Emacs config</a></p>
-	  <p>4. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" rel="noopener noreferrer" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
+		  <p>2. <a href="https://blog.thegrepper.com/">Perfunctory blog</a></p>
+		  <p>3. <a href="https://github.com/fniessen/emacs-leuven-theme" rel="noopener noreferrer" target="_blank">Leuven</a>, the Emacs theme this page is based on</p>
+	  <p>4. <a href="https://github.com/ahrjarrett/.emacs.d/" rel="noopener noreferrer" target="_blank">My Emacs config</a></p>
+	  <p>5. <a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html" rel="noopener noreferrer" target="_blank">Functors, Applicatives, And Monads In Pictures</a></p>
 	  <br />
 	  <br />
 	  </ul>
