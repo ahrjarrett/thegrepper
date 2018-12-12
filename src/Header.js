@@ -4,7 +4,7 @@ const Header = () => (
   <div className="_3a47291c Header">
     <div className="header-left">
       <h1 className="_93f6c985">Andrew Jarrett</h1>
-      <p className="_1121011e">Software developer, 2 years experience
+      <p className="_1121011e">Software developer, 1 year experience
       </p>
       <p className="_d7dc6b3d">View my website at <a className="section-footer-link" href="https://thegrepper.com">thegrepper.com
 	  <img alt="" className="resume-icon" src="svg/link.svg" />
