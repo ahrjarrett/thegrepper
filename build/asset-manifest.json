@@ -1,16 +1,16 @@
 {
   "main.css": "/static/css/main.e30c02df.chunk.css",
-  "main.js": "/static/js/main.7cc37853.chunk.js",
-  "main.js.map": "/static/js/main.7cc37853.chunk.js.map",
+  "main.js": "/static/js/main.4f4a4354.chunk.js",
+  "main.js.map": "/static/js/main.4f4a4354.chunk.js.map",
   "static/js/1.dff39538.chunk.js": "/static/js/1.dff39538.chunk.js",
   "static/js/1.dff39538.chunk.js.map": "/static/js/1.dff39538.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Home.css": "/static/media/FiraCode-Medium.d293dc7c.woff2",
-  "static/media/Font.css": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2",
+  "static/media/Home.css": "/static/media/FiraCode-Light.3a7fa128.woff2",
+  "static/media/Font.css": "/static/media/SourceSansPro-Regular.0448fda3.woff2",
   "static/media/Paper.css": "/static/media/save.ce2002cf.svg",
   "static/css/main.e30c02df.chunk.css.map": "/static/css/main.e30c02df.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.44af737a8949683b432cc300d90418fb.js": "/precache-manifest.44af737a8949683b432cc300d90418fb.js",
+  "precache-manifest.bf867ff28dfa94c6f56f912538d6806e.js": "/precache-manifest.bf867ff28dfa94c6f56f912538d6806e.js",
   "service-worker.js": "/service-worker.js"
 }
