@@ -3,7 +3,7 @@ import Section from "./Section"
 
 const SideProjects = () => (
   <div>
-    <Section heading="Side projects" items={items} />
+    <Section heading="Projects" items={items} />
     {/* <p className="section-footer">
       …more at{" "}
       <a className="section-footer-link" href="https://github.com/ahrjarrett">
