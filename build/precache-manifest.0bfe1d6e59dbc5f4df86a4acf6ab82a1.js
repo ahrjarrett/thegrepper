@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Bold.9ecee2ce.woff2"
   },
   {
-    "revision": "4f4a435447fee6e9ee28",
+    "revision": "d015d627a646b20ca63f",
     "url": "/static/css/main.e30c02df.chunk.css"
   },
   {
@@ -16,6 +16,10 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "d293dc7c066d907f308b9924a60f1700",
+    "url": "/static/media/FiraCode-Medium.d293dc7c.woff2"
+  },
+  {
     "revision": "24310bd06e2537b92a92f33dabdc038b",
     "url": "/static/media/FiraCode-Regular.24310bd0.woff2"
   },
@@ -24,24 +28,20 @@ self.__precacheManifest = [
     "url": "/static/media/FiraCode-Light.3a7fa128.woff2"
   },
   {
-    "revision": "d293dc7c066d907f308b9924a60f1700",
-    "url": "/static/media/FiraCode-Medium.d293dc7c.woff2"
-  },
-  {
-    "revision": "4f4a435447fee6e9ee28",
-    "url": "/static/js/main.4f4a4354.chunk.js"
+    "revision": "d015d627a646b20ca63f",
+    "url": "/static/js/main.d015d627.chunk.js"
   },
   {
     "revision": "dc350a1320c8c455fce22a68938ce05b",
     "url": "/static/media/SourceSansPro-Italic.dc350a13.woff2"
   },
   {
-    "revision": "0d3b9a43eda8c6ebe926cd9740ec78a4",
-    "url": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2"
-  },
-  {
     "revision": "0448fda3606e6dc571f763223e78861a",
     "url": "/static/media/SourceSansPro-Regular.0448fda3.woff2"
+  },
+  {
+    "revision": "0d3b9a43eda8c6ebe926cd9740ec78a4",
+    "url": "/static/media/SourceSansPro-Bold.0d3b9a43.woff2"
   },
   {
     "revision": "55644be0d4a9382b8f1b58830cd536c6",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/save.ce2002cf.svg"
   },
   {
-    "revision": "4d561623c345ea601a2e524509a2fc29",
+    "revision": "cae2ace2ee4ef113bab12cbbdfd445fd",
     "url": "/index.html"
   }
 ];
