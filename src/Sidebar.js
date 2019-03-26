@@ -13,7 +13,7 @@ const Sidebar = () => (
     </div>
     <div className="_649629ae">
       <span className="_648da435"></span>
-      <a className="_cd8c9a18" href="/">View my portfolio</a>
+      <a className="_cd8c9a18" href="https://ahrjarrett.com">View my portfolio</a>
     </div>
   </div>
 )
