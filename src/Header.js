@@ -6,9 +6,9 @@ const Header = () => (
       <h1 className="_93f6c985">Andrew Jarrett</h1>
       <p className="_1121011e">Software developer</p>
       <p className="_d7dc6b3d">
-        View my portfolio at{" "}
-        <a className="section-footer-link" href="https://thegrepper.com">
-          thegrepper.com
+        View my website at{" "}
+        <a className="section-footer-link" href="https://ahrjarrett.com">
+          ahrjarrett.com
           <img alt="" className="resume-icon" src="svg/link.svg" />
         </a>
       </p>
